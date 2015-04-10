@@ -1,0 +1,8 @@
+{
+  "name": "cg-lightdom-element",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5"
+  }
+}

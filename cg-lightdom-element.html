@@ -1,0 +1,20 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="cg-lightdom-element">
+    <template>
+    </template>
+    <script>
+        Polymer({
+            parseDeclaration: function(elementElement) {
+                var template = this.fetchTemplate(elementElement);
+                if (template) {
+//                    if (this.element.hasAttribute('lightdom')) {
+                        this.lightFromTemplate(template);
+//                    } else {
+//                        this.shadowFromTemplate(template);
+//                    }
+                }
+            },
+        });
+    </script>
+</polymer-element>
